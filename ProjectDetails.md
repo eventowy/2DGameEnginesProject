@@ -1,18 +1,18 @@
-Title & Genre:
+# Title & Genre:
 Little Spartan - The Cursed Doll ( 2D Platformer with possible Roguelike elements)
 ---
-Storyline:
+# Storyline:
 This game is about Spartan Warrior who once found a doll in old ruins. One touch was enough to be cursed forever – or at least for some period in time. Curse’s sentence is simple – when old warrior will take 3 hits he will become that doll for the rest of his life. He has to find Old Necromancer to reverse everything but it won’t be so easy – he looks like a baby now.
 
-Short description:
+# Short description:
 With warrior experience but in body of a child we have to face evil once more and reach the Old Necromancer before it’s too late. Using simple attack mechanics, super baby dashes, rolls and special techniques we have to complete our short adventure. We will face scary monsters / undefeated necromancer’s adjutants and poop to reach our destination. Change your diaper and fulfill the prophecy (sounds cool but there’s no prophecy ☹ only poor curse).
 
-References (Pics in another doc):
+# References (Pics in another doc):
 •	The Binding of Isaac
 •	Captain Claw
 •	Rogue Legacy
 
-Scope(Goals):
+# Scope(Goals):
 1.Main character - design
 2.Simple character controller – moving / jumping 
 3.Advanced(?) character mechanics – double jump / dash / roll / special techniques (it is either not confirmed or not specified yet :D)
@@ -34,11 +34,11 @@ Scope(Goals):
 19.Menu
 20.Save script / Load script
 
-Additional Goals (cuz why not):
+# Additional Goals (cuz why not):
 •	Music
 •	Trailer
 
-Estimates
+# Estimates
  
 Ad1) 1 / 2 day(s)
 Ad2) 1 day
