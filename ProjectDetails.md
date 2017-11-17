@@ -7,12 +7,16 @@ This game is about Spartan Warrior who once found a doll in old ruins. One touch
 # Short description:
 With warrior experience but in body of a child we have to face evil once more and reach the Old Necromancer before it’s too late. Using simple attack mechanics, super baby dashes, rolls and special techniques we have to complete our short adventure. We will face scary monsters / undefeated necromancer’s adjutants and poop to reach our destination. Change your diaper and fulfill the prophecy (sounds cool but there’s no prophecy ☹ only poor curse).
 
-# References (Pics in another doc):
-•	The Binding of Isaac
+# References:
+The Binding of Isaac
+![The Binding of Isaac](/References/isaac.jpg)
 
-•	Captain Claw
+Captain Claw
 
-•	Rogue Legacy
+![Captain Claw](References/3.jpg)
+
+Rogue Legacy
+![Rogue Legacy](/References/RLegacy.jpg)
 
 # Scope(Goals):
 1.Main character - design
