@@ -1,0 +1,40 @@
+Initialize engine version: 5.6.2f1 (a2913c821e27)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 660 (ID=0x11c0)
+    Vendor:   NVIDIA
+    VRAM:     2015 MB
+    Driver:   23.21.13.8813
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\event\Downloads\BabyViks\BabyVik\BabyViking\Builds\BabySpartanv001_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\event\Downloads\BabyViks\BabyVik\BabyViking\Builds\BabySpartanv001_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\event\Downloads\BabyViks\BabyVik\BabyViking\Builds\BabySpartanv001_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\event\Downloads\BabyViks\BabyVik\BabyViking\Builds\BabySpartanv001_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\event\Downloads\BabyViks\BabyVik\BabyViking\Builds\BabySpartanv001_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\event\Downloads\BabyViks\BabyVik\BabyViking\Builds\BabySpartanv001_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\event\Downloads\BabyViks\BabyVik\BabyViking\Builds\BabySpartanv001_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\event\Downloads\BabyViks\BabyVik\BabyViking\Builds\BabySpartanv001_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.117 seconds
+Platform assembly: C:\Users\event\Downloads\BabyViks\BabyVik\BabyViking\Builds\BabySpartanv001_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\event\Downloads\BabyViks\BabyVik\BabyViking\Builds\BabySpartanv001_Data\Managed\System.dll (this message is harmless)
+desktop: 1680x1050 60Hz; virtual: 3280x1050 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.800962 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.961603 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 6248.
+Total: 1.477760 ms (FindLiveObjects: 0.320640 ms CreateObjectMapping: 0.106240 ms MarkObjects: 1.028800 ms  DeleteObjects: 0.020800 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.336963 ms
+
+Unloading 183 unused Assets to reduce memory usage. Loaded Objects now: 284.
+Total: 0.760000 ms (FindLiveObjects: 0.029120 ms CreateObjectMapping: 0.027840 ms MarkObjects: 0.190080 ms  DeleteObjects: 0.512640 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 23b4 -> priority: 1 
+  Thread -> id: 2fd0 -> priority: 1 
