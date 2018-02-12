@@ -35,6 +35,8 @@ public class LevelManager : MonoBehaviour {
 
     public GameObject gameOver;
 
+    public ObjectsReset[] objectsToReset;
+
     void Start ()
     {
         thePlayer = FindObjectOfType<PlayerController>();
@@ -42,6 +44,8 @@ public class LevelManager : MonoBehaviour {
         healthCount = maxHealth;
         currentLives = startingLives;
         livesText.text = "x" + currentLives;
+
+        objectsToReset = FindObjectsOfType<ObjectsReset>();
 	}
 	
 	void Update ()
@@ -49,6 +53,7 @@ public class LevelManager : MonoBehaviour {
 		if (healthCount <= 0 && !respawning)
         {
             Respawn();
+            
             respawning = true;
             thePlayer.knockbackLength = 0f;
             thePlayer.knockbackForce = 0f;
@@ -90,6 +95,13 @@ public class LevelManager : MonoBehaviour {
         HeartUpdate();
         thePlayer.transform.position = thePlayer.respawnPosition;
         thePlayer.gameObject.SetActive(true);
+
+        for (int i = 0; i < objectsToReset.Length; i++)
+        {
+            objectsToReset[i].gameObject.SetActive(true);
+            objectsToReset[i].ResetObject();
+            
+        }
     }
 
     public void AddCoins(int coinsToAdd)

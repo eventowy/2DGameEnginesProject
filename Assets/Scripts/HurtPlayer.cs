@@ -16,9 +16,6 @@ public class HurtPlayer : MonoBehaviour {
         theLevelManager = FindObjectOfType<LevelManager>();
 	}
 
-	void Update () {
-		
-	}
     void OnTriggerStay2D(Collider2D other)
     {
         if (other.tag == "Player")
@@ -35,15 +32,9 @@ public class HurtPlayer : MonoBehaviour {
             if (MonsterHealth == 0)
             {
                 Instantiate(DeathExplosion, gameObject.transform.position, gameObject.transform.rotation);
-                StartCoroutine("Wait");
-                Destroy(gameObject); 
+                gameObject.SetActive(false);
+                MonsterHealth = 1;
             }
         }
-        
-    }
-
-    public IEnumerator Wait()
-    {
-        yield return new WaitForSeconds(20f);
     }
 }

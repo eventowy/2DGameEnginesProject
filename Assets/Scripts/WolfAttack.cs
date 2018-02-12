@@ -12,11 +12,6 @@ public class WolfAttack : MonoBehaviour {
     {
         wolf = FindObjectOfType<Wolf>();
     }
-    
-    void Update()
-    {
-
-    }
 
     void OnTriggerEnter2D(Collider2D other)
     {
